@@ -18,6 +18,7 @@ Components:
 5. **Servo Motor:** The servo motor is often used to mount the ultrasonic sensor. A servo motor provides precise control of the sensor's angle or orientation, allowing the robot to scan its surroundings.
 
 Method of Operation:
+
 6. **Sensing:** The robot starts by using the ultrasonic sensor. It sends out an ultrasonic pulse and measures the time it takes for the pulse to return. This time delay is used to calculate the distance to any obstacle in front of the robot.
 
 7. **Obstacle Detection:** Based on the data from the ultrasonic sensor, the robot's control software determines whether there are obstacles in its path. If an obstacle is detected within a certain range, the robot proceeds to obstacle avoidance.
@@ -37,6 +38,8 @@ The circuit was developed using Fritzing
 
 <img src="circuit.jpeg" width="400" 
      height="500" >
+
+### Finished project
 
 Below is a picture taken of the robot
 
