@@ -3,6 +3,7 @@ Obstacle avoidance wheeled mobile robot(Course 482)
 _____
 
 **Introduction**
+
 An obstacle avoidance wheeled mobile robot is a type of autonomous or semi-autonomous robot that is designed to navigate through an environment while avoiding obstacles in its path. These robots are commonly used in various applications, including industrial automation, warehouse logistics, home cleaning robots, and even in educational settings.
 
 Here's a basic description of a wheeled mobile robot's components and its method of operation using the equipment you mentioned:
