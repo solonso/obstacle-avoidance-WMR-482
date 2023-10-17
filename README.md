@@ -2,6 +2,7 @@
 Obstacle avoidance wheeled mobile robot(Course 482)
 _____
 
+**Introduction**
 An obstacle avoidance wheeled mobile robot is a type of autonomous or semi-autonomous robot that is designed to navigate through an environment while avoiding obstacles in its path. These robots are commonly used in various applications, including industrial automation, warehouse logistics, home cleaning robots, and even in educational settings.
 
 Here's a basic description of a wheeled mobile robot's components and its method of operation using the equipment you mentioned:
@@ -18,10 +19,9 @@ Components:
 5. **Servo Motor:** The servo motor is often used to mount the ultrasonic sensor. A servo motor provides precise control of the sensor's angle or orientation, allowing the robot to scan its surroundings.
 
 Method of Operation:
+1. **Sensing:** The robot starts by using the ultrasonic sensor. It sends out an ultrasonic pulse and measures the time it takes for the pulse to return. This time delay is used to calculate the distance to any obstacle in front of the robot.
 
-6. **Sensing:** The robot starts by using the ultrasonic sensor. It sends out an ultrasonic pulse and measures the time it takes for the pulse to return. This time delay is used to calculate the distance to any obstacle in front of the robot.
-
-7. **Obstacle Detection:** Based on the data from the ultrasonic sensor, the robot's control software determines whether there are obstacles in its path. If an obstacle is detected within a certain range, the robot proceeds to obstacle avoidance.
+2. **Obstacle Detection:** Based on the data from the ultrasonic sensor, the robot's control software determines whether there are obstacles in its path. If an obstacle is detected within a certain range, the robot proceeds to obstacle avoidance.
 
 3. **Obstacle Avoidance:** The robot's software calculates a safe path to avoid the detected obstacle. This path planning can be quite simple, like turning left or right to avoid the obstacle, or it can be more sophisticated, involving algorithms such as A* or Dijkstra's algorithm for finding the optimal path.
 
